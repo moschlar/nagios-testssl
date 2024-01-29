@@ -22,7 +22,7 @@ severities = {
 try:
     parser = argparse.ArgumentParser(description='Test support of TLS/SSL ciphers, '
         'protocols as well as cryptographic flaws and much more. This is a wrapper '
-        'around testssl.sh (https://github.com/drwetter/testssl.sh')
+        'around testssl.sh (https://github.com/drwetter/testssl.sh)')
     parser.add_argument('--uri', help='host|host:port|URL|URL:port.'
             'Port 443 is default, URL can only contain HTTPS protocol', required=True)
     parser.add_argument('--testssl', help='Path to the testssl.sh script', required=True)
